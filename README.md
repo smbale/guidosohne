@@ -1,4 +1,0 @@
-guidosohne
-==========
-
-Photo feed App
