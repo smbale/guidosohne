@@ -1,1 +1,26 @@
 Java Photo Sharing App
+
+
+Documentation for Uploading and Managing a Java App
+
+Detailed information can be found here
+https://developers.google.com/appengine/docs/java/tools/uploadinganapp
+
+You can upload your application from a command prompt
+
+Uploading
+
+./appengine-java-sdk/bin/appcfg.sh update <directory>/
+
+
+Downloading
+
+If you want to download your app from Appengine be warned that this Google documentation at https://developers.google.com/appengine/docs/java/tools/uploadinganapp#Downloading_an_Application has the <download_app> arguement in the wrong place.
+
+./appengine-java-sdk/bin/appcfg.sh download_app -A <your_app_id> -V <your_app_version> <output-dir> 
+
+It should be 
+
+./appengine-java-sdk/bin/appcfg.sh -A <your_app_id> -V <your_app_version> download_app <output-dir>
+
+
