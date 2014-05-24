@@ -6,11 +6,11 @@ Documentation for Uploading and Managing a Java App
 Detailed information can be found here
 https://developers.google.com/appengine/docs/java/tools/uploadinganapp
 
-You can upload your application from a command prompt
+If you clone this repo you can upload your application from a command prompt
 
 Uploading
 
-./appengine-java-sdk/bin/appcfg.sh update <directory>/
+./appengine-java-sdk/bin/appcfg.sh update <app directory>/
 
 
 Downloading
@@ -22,5 +22,9 @@ If you want to download your app from Appengine be warned that this Google docum
 It should be 
 
 ./appengine-java-sdk/bin/appcfg.sh -A <your_app_id> -V <your_app_version> download_app <output-dir>
+
+TODO
+
+Develop an android client
 
 
